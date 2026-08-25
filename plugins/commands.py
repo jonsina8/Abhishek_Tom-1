@@ -117,14 +117,12 @@ async def start(client, message):
             buttons = [[
                         InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                     ],[
-                    InlineKeyboardButton(' ᴀʙᴏᴜᴛ 📖', callback_data="about"),
-                    InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help'),
-                ],[
-                    InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ..💵', callback_data="shortlink_info")
-                    InlineKeyboardButton(' CHANNEL 📖', url=CHNL_LNK)
-                ],[
-                    InlineKeyboardButton(' GROUPS 📢', url=GRP_LNK)
-                ]]
+                        InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help'),
+                        InlineKeyboardButton(' ᴀʙᴏᴜᴛ 📖', callback_data='about')
+                    ],[
+                        InlineKeyboardButton('ᴛᴏᴘ sᴇᴀʀᴄʜɪɴɢ ⭐', callback_data="topsearch"),
+                        InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info"),
+                    ]]
             reply_markup = InlineKeyboardMarkup(buttons)
             current_time = datetime.now(pytz.timezone(TIMEZONE))
             curr_time = current_time.hour        
@@ -151,15 +149,13 @@ async def start(client, message):
         if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
             buttons = [[
                         InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    ],[
+                        InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help'),
+                        InlineKeyboardButton(' ᴀʙᴏᴜᴛ 📖', callback_data='about')
+                    ],[
+                        InlineKeyboardButton('ᴛᴏᴘ sᴇᴀʀᴄʜɪɴɢ ⭐', callback_data="topsearch"),
+                        InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info"),
                     ]]
-                    InlineKeyboardButton(' ᴀʙᴏᴜᴛ 📖', callback_data="about"),
-                    InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help'),
-                ],[
-                    InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ..💵', callback_data="shortlink_info")
-                    InlineKeyboardButton(' CHANNEL 📖', url=CHNL_LNK)
-                ],[
-                    InlineKeyboardButton(' GROUPS 📢', url=GRP_LNK)
-                ]]
             reply_markup = InlineKeyboardMarkup(buttons)
             current_time = datetime.now(pytz.timezone(TIMEZONE))
             curr_time = current_time.hour        
