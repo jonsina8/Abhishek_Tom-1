@@ -121,7 +121,6 @@ async def start(client, message):
                     InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help'),
                 ],[
                     InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ..💵', callback_data="shortlink_info")
-                ],[
                     InlineKeyboardButton(' CHANNEL 📖', url=CHNL_LNK)
                 ],[
                     InlineKeyboardButton(' GROUPS 📢', url=GRP_LNK)
@@ -157,7 +156,6 @@ async def start(client, message):
                     InlineKeyboardButton(' ʜᴇʟᴘ 📢', callback_data='help'),
                 ],[
                     InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ..💵', callback_data="shortlink_info")
-                ],[
                     InlineKeyboardButton(' CHANNEL 📖', url=CHNL_LNK)
                 ],[
                     InlineKeyboardButton(' GROUPS 📢', url=GRP_LNK)
