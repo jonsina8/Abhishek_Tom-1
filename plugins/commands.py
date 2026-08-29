@@ -118,7 +118,7 @@ async def start(client, message):
                         InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                     ],[
                         InlineKeyboardButton(' 〄 Hᴇʟᴘ', callback_data='help'),
-                        InlineKeyboardButton(' ᴀʙᴏᴜᴛ 📖', callback_data='about')
+                        InlineKeyboardButton('❗ABOUT', callback_data='about')
                     ],[
                         InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', callback_data="topsearch"),
                         InlineKeyboardButton('𝐟𝐫𝐞𝐞/𝐩𝐚𝐢𝐝 𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍 😊', callback_data="premium_info"),
@@ -151,7 +151,7 @@ async def start(client, message):
                         InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                     ],[
                         InlineKeyboardButton(' 〄 Hᴇʟᴘ', callback_data='help'),
-                        InlineKeyboardButton(' ᴀʙᴏᴜᴛ 📖', callback_data='about')
+                        InlineKeyboardButton(' ❗ABOUT', callback_data='about')
                     ],[
                         InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', callback_data="topsearch"),
                         InlineKeyboardButton('𝐟𝐫𝐞𝐞/𝐩𝐚𝐢𝐝 𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍 😊, callback_data="premium_info"),
